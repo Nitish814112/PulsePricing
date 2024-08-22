@@ -1,0 +1,170 @@
+*{
+    font-family: 'Work Sans', "Helvetica Neue", Helvetica, sans-serif !important;
+}
+.navbar-brand,.nav-link,.btn-outline-success{
+color: #00AD6A;
+font-size: 20px;
+font-weight: 700 !important;
+
+
+}
+.btn-outline-success{
+border: 2px solid;
+border-radius: 0;
+}
+.navbar-brand{
+padding-left: 10rem !important;
+
+}
+.contain{
+background-color: #EAFAF1 !important;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.heading{
+font-size: 3.75rem;
+line-height: 1;
+font-weight: 700;
+}
+p{
+font-size: 1.125rem; 
+margin: -25px;
+}
+.para{
+margin-top: 1.25rem;
+
+
+}
+
+.circle{
+    display: flex;
+    background-color: #EAFAF1 !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+ .circle>p{
+  
+  padding-top: 1.5rem;
+  font-weight: 700;
+  color: aliceblue;
+  background-color: grey;
+    height: 80px;
+    font-size: small;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+    
+    
+ }  
+ .textpart{
+  margin-left: 15rem;
+  gap: 10px;
+  letter-spacing: 1px;
+  color: gray;
+ } 
+ .textpart,.fw-bold{
+  color: black;
+ }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 20px; */
+    justify-content: center;
+    margin-top: 10rem;
+    /* padding: 2rem; */
+}
+
+.card {
+    width: 100%;
+    background-color: #EAFAF1 !important;
+    border: none;
+    margin-top: 0 !important;
+}
+
+.card1 h6 {
+    color: #00AD6A;
+    font-size: 20px;
+    font-weight: 700 !important;
+    margin-top: -10px !important;
+    padding-left: 25px;
+}
+
+.card1 ul p {
+    font-size: 20px;
+    font-weight: 700 !important;
+    padding-left: 25px;
+}
+
+.buttn {
+    background: #00AD6A !important;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+}
+
+.parag {
+    font-size: 16px;
+}
+
+.ticksign {
+    font-size: 16px;
+    gap: 5px;
+    color: #00AD6A !important;
+}
+
+/* Ensure the cards align properly */
+.card1, .card2, .card3 {
+    margin-top: 10rem;
+
+   
+}
+.card2{
+    
+    border: 1px solid #00AD6A;
+    transform: scaleY(1.2);
+
+    
+}
+.card2,.card3:hover{
+       cursor: pointer;
+}
+.card2,.card3{
+    background-color: white !important;
+}
+.card3{
+    border-left: 1px solid #00AD6A;
+   border-right: 1px solid gray;
+   border-bottom:1px solid gray;
+}
+
+.card2 .card-header {
+    background-color: #00AD6A;
+    color: white;
+    font-size: 20px;
+}
+ 
+.d-block{
+    color: #1FE374 !important;
+    }
+    
+    a:hover{
+      color: white !important;
+    }
+    .buttn{
+      background-color:#1FE374 !important ;
+      font-size: 8px;
+    }
+    .text-gray{
+      color: gray;
+      margin-left:-14rem;
+    }
+    small a{
+      color: gray;
+    }
